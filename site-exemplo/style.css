@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil {
+    width: 125px; /* Defina o tamanho desejado em pixels ou outra unidade de medida */
+    height: 125px; /* Defina a altura desejada, se necessário */
+    box-shadow: 20px 10px 100% 1 black;
+    display: inline-block;
+
+    
+
+}
+#cabecalho {
+    display: inline-block; /* Adiciona display inline-block para o h1 */
+    vertical-align: top; /* Alinha o topo do h1 com o topo do perfil */
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#cabecalho h1 {
+    
+}
+
+#cabecalho p {
+    width: 70%;
+
+    font-size: 0.6em;
+
+}
+
+
+#perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Adicionando borda circular à imagem, opcional */
+    box-shadow: 0px 0px 20px 0.1px rgba(166, 0, 255, 0.823)
+}
